@@ -1,0 +1,4 @@
+<layers>
+    <layer name="collective.ffcentral"
+           interface="collective.ffcentral.browser.interfaces.ILayer" />
+</layers>

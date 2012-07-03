@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ffcentral">
+
+  <interface
+      interface=".interfaces.ILayer"
+      name="collective.ffcentral"
+      />
+      
+   <include package="plone.app.contentmenu" />
+   
+   <browser:page
+      name="ffcentral_view"
+      for="*"
+      layer=".interfaces.ILayer"
+      class=".ffcentral_view.ffcentralPage"
+      template="ffcentral_view.pt"
+      permission="zope2.View"
+      /> 
+      
+</configure>
