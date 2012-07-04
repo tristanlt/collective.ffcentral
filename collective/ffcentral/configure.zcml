@@ -11,6 +11,8 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <cmf:registerDirectory name="collective_ffcentral"/>
+
   <genericsetup:registerProfile
       name="default"
       title="collective.ffcentral"

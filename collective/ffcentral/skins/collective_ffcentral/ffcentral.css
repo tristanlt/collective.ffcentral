@@ -1,0 +1,87 @@
+#ffcentral ul {
+	margin: 0;
+	padding: 0;
+}
+#ffc_navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: 1.2em "Trebuchet MS", sans-serif;
+}
+#ffc_navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: 1.2em "Trebuchet MS", sans-serif;
+}
+#ffc_navigation a {
+	text-decoration: none;
+	margin: 0 0.0 0 0;
+	padding: 0;
+}
+#ffc_navigation li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+#ffc_navigation a, #ffc_navigation span {
+  display: block;
+  padding: 4px 10px;
+  text-decoration: none;
+  background: rgb(77,93,102);
+}
+#ffc_navigation .toggleSubMenu a, #ffc_navigation .toggleSubMenu span {
+  text-decoration: none;
+  color: #fff;
+  border: 0px;
+    -webkit-border-top-right-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-topleft: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#ffc_navigation .open a, #ffc_navigation .open span {
+  color: white;
+  background: rgb(77,93,102);
+  text-decoration: none;
+}
+#ffc_navigation a:hover, #ffc_navigation a:focus, #ffc_navigation a:active {
+  text-decoration: none;
+}
+#ffc_navigation li.toggleSubMenu {
+	margin-top: 3px;
+}
+#ffc_navigation .subMenu {
+  font-size: .8em;
+  font-size: .9em;
+  padding: 2em 1em 1em 1em;
+  margin: -1em 0 0 0;
+  border: 1px solid rgb(77,93,102);
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#ffc_navigation ul.subMenu a {
+  background: none;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+
+}
+.ffi_date {
+	font-size: 10px;
+	font-style: italic;
+	text-align: right;
+}
+#ffc_navigation ul.subMenu a {
+}
